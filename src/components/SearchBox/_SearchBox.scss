@@ -1,0 +1,35 @@
+.search-box {
+    margin-top: 43px;
+    display: flex;
+    align-items: center;
+
+    &__title {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &__input {
+        margin-left: 15px;
+        height: 50px;
+        width: 417px;
+        border-radius: 25px;
+        border: 1px solid #d8d8d8;
+        outline: none;
+
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+
+        text-indent: 15px;
+
+        &::-webkit-search-cancel-button {
+            display: none;
+        }
+    }
+
+    @media (max-width: 877px) {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

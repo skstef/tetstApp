@@ -1,0 +1,12 @@
+@import "./SeeMore/SeeMore";
+
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8px;
+
+    @media (max-width: 877px) {
+        justify-content: center;
+    }
+}

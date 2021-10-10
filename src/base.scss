@@ -1,0 +1,16 @@
+* {
+    font-family: "Open Sans";
+    color: #363636;
+    font-style: normal;
+    font-weight: normal;
+
+    margin: 0;
+    padding: 0;
+}
+
+// imports
+@import "./components/Header/Header";
+@import "./components/Card/Card";
+@import "./components/SearchBox/SearchBox";
+@import "./components/SearchResults/SearchResults";
+@import "./components/Main/Main";

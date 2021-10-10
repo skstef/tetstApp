@@ -1,0 +1,54 @@
+@import "./CardLabel/CardLabel";
+
+.card {
+    width: 379px;
+    padding-bottom: 17px;
+    background: #f8f8f8;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    margin-top: 38px;
+    text-decoration: none;
+
+    &__image-wrapper {
+        height: 228px;
+        position: relative;
+    }
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__info {
+        margin-left: 20px;
+        &__title {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 27px;
+            margin-top: 18px;
+        }
+
+        &__address {
+            font-size: 16px;
+            line-height: 22px;
+            margin-top: 2px;
+        }
+
+        &__price {
+            font-size: 16px;
+            line-height: 22px;
+            margin-top: 17px;
+
+            b {
+                font-weight: bold;
+            }
+        }
+
+        &__shared-ownership {
+            margin-top: 7px;
+            font-size: 14px;
+            line-height: 19px;
+        }
+    }
+}
