@@ -13,6 +13,8 @@ const App: React.FC = () => (
             <Route exact path="/details/:id">
                 <div>Info</div>
             </Route>
+
+            <Redirect to="/search" />
         </Switch>
     </BrowserRouter>
 );
